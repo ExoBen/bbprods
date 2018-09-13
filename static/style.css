@@ -12,14 +12,13 @@ body {
   background-size: cover;
 }
 
-#page_container {
-	position:relative;
-	max-width:1400px;
-	min-width:980px;
-	text-align:justify;
+@media (min-width: 1400px) {
+	.container {
+			max-width: 1400px;
+	}
 }
 
-h1 {font-size:48px; margin: 5px;padding: 0px;}
+h1 {font-size:48px; margin: 5px;padding: 0px 10px 0px 10px;}
 h2 {font-size:36px; margin: 5px;padding: 0px 10px 0px 10px;}
 h3 {font-size:24px; margin: 5px;padding: 0px 10px 0px 10px;}
 h4 {font-size:20px; margin: 0px;padding: 20px 10px 0px 10px;}
@@ -34,6 +33,7 @@ p  {margin:18px;}
 .left_align {text-align: left;}
 .center_align {text-align: center;}
 .right_align {text-align: right;}
+.embolden {font-weight: bold;}
 
 .table_style {
 	width: 100%;
@@ -62,9 +62,15 @@ p  {margin:18px;}
     float:left;
 }
 
-/* HEAD!!!!!! */
+.header-padding {
+	padding: 90px 0 20px 0;
+}
 
-#head {width: 100%;}
+.padding-bottom {
+	padding: 0 0 40px 0;
+}
+
+/* HEAD!!!!!! */
 
 #head_link a {
 	text-decoration:none;
@@ -76,22 +82,30 @@ p  {margin:18px;}
 }
 #head_link a:hover {
 	text-shadow: 5px 5px 4px #000066;
-	}
+}
+.small-padding-so-aligned {
+	padding-top: 12px;
+}
 
 /* HOME!!!!!! */
 
-.home_td_style {padding: 25px 10px;}
+.home_columns div {
+	padding: 25px 0px;
+}
 
-.home_td_style a {
+.home_columns a {
 	border-radius: 10px;
 	color:#FFFFFF;
 }
-.home_td_style img {
+.home_columns img {
 	border-radius:16px;
 	box-shadow: 0px 0px 10px 1px #FFFFFF;
-  transition: 0.15s;
+	transition: 0.15s;
+	display: block;
+	margin-left: auto;
+  margin-right: auto;
 }
-.home_td_style img:hover {
+.home_columns img:hover {
 	box-shadow: 0px 0px 20px 5px #FFFF94;
 }
 

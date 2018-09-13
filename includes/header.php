@@ -9,31 +9,21 @@ echo "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n";
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 
 <head>
-<title>bill breckenridge</title>
-<link rel="stylesheet" media="screen" type="text/css" href="<?php echo BASE_URL;?>static/bootstrap-4.1.3/css/bootstrap.min.css">
-<link rel="stylesheet" media="screen" type="text/css" href="<?php echo BASE_URL;?>static/style.css" />
-<meta name="description" content="Bill Breckenridge, South Glasgow, design and build. Website contains projects of work done with attached galleries. wbreckenridge@btinternet.com">
+	<title>bill breckenridge</title>
+	<link rel="stylesheet" media="screen" type="text/css" href="<?php echo BASE_URL;?>static/bootstrap-4.1.3/css/bootstrap.min.css">
+	<link rel="stylesheet" media="screen" type="text/css" href="<?php echo BASE_URL;?>static/style.css" />
+	<meta name="description" content="Bill Breckenridge, South Glasgow, design and build. Website contains projects of work done with attached galleries. wbreckenridge@btinternet.com">
 </head>
 
-<center>
 <body>
+<div class="container outline padding-bottom" href="<?php echo BASE_URL;?>">
 
-<div id="page_container" href="<?php echo BASE_URL;?>">
-
-<br>
-<div class="outline">
-<div id="head_link">
-<table id="head">
-	<tr>
-		<td class="left_align">
-			<a href="<?php echo BASE_URL;?>"><p>&nbsp;</p><h1>&nbsp;&nbsp;bill breckenridge</h1></a>
-		</td>
-		<td class="center_align">
-            <p>&nbsp;</p><h2>design and <a href="<?php echo BASE_URL;?>beta">b</a>uild</h2>
-		</td>
+<div class="row justify-content-between header-padding" id="head_link">
+	<div class="col-md-7">
+		<a href="<?php echo BASE_URL;?>"><h1>bill breckenridge</h1></a>
+	</div>
+	<div class="col-md-5">
+		<h2 class="right_align small-padding-so-aligned">design and <a href="<?php echo BASE_URL;?>beta">b</a>uild</h2>
+	</div>
 	</tr>
-</table>
 </div>
-
-
-<h3>&nbsp;</h3>
