@@ -16,14 +16,14 @@ echo "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n";
 </head>
 
 <body>
-<div class="container outline padding-bottom" href="<?php echo BASE_URL;?>">
+<div class="container outline" href="<?php echo BASE_URL;?>">
 
 <div class="row justify-content-between header-padding" id="head_link">
 	<div class="col-md-7">
 		<a href="<?php echo BASE_URL;?>"><h1>bill breckenridge</h1></a>
 	</div>
 	<div class="col-md-5">
-		<h2 class="right_align small-padding-so-aligned">design and <a href="<?php echo BASE_URL;?>beta">b</a>uild</h2>
+		<h2 class="right_align small-padding-so-aligned">design and build</h2>
 	</div>
 	</tr>
 </div>

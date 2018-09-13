@@ -1,9 +1,9 @@
-<div class="row embolden">
-    <div class="col-md-6">
+<div class="row embolden footer-padding">
+    <div class="col-lg-7">
         <h3>contact: wbreckenridge@btinternet.com</h3>
     </div>
-    <div class="col-md-6 right_align">
-        &copy; Bill Breckenridge<br />Created by ben.d.jackson@outlook.com
+    <div class="col-lg-5 right_align">
+        &copy; William Breckenridge<br />Website by ben.d.jackson@outlook.com
     </div>
 </div>
 
