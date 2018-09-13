@@ -1,0 +1,165 @@
+
+html {overflow-y: scroll;}
+
+body {
+  font-family:"lucida console",helvetica,sans-serif;
+  color:black;
+  max-height: 9999px;
+  background-image: url(http://www.bbprods.co.uk/images/home_crop.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#page_container {
+	position:relative;
+	max-width:1400px;
+	min-width:980px;
+	text-align:justify;
+}
+
+h1 {font-size:48px; margin: 5px;padding: 0px;}
+h2 {font-size:36px; margin: 5px;padding: 0px 10px 0px 10px;}
+h3 {font-size:24px; margin: 5px;padding: 0px 10px 0px 10px;}
+h4 {font-size:20px; margin: 0px;padding: 20px 10px 0px 10px;}
+p  {margin:18px;}
+
+.outline {
+    color: #ffffff;
+    text-shadow: 3px 3px 4px #000000;
+    -webkit-font-smoothing: antialiased;
+}
+
+.left_align {text-align: left;}
+.center_align {text-align: center;}
+.right_align {text-align: right;}
+
+.table_style {
+	width: 100%;
+	text-align: center;
+	vertical-align:  center;
+    	text-shadow: 2px 2px 3px #FFFFFF;
+}
+
+#bottom_right {
+	float:right;
+	text-align:right;
+	color: #FFFFFF;
+	text-shadow: 1px 1px 2px #000000;
+	background-color: rgba(102, 255, 255, 0.2);
+	border-color: rgba(102,255, 255, 0);
+	border-style: solid;
+	border-width: 0px 15px;
+	border-radius: 15px;
+}
+
+#bottom_right a {
+	color: white;
+}
+
+#bottom_left {
+    float:left;
+}
+
+/* HEAD!!!!!! */
+
+#head {width: 100%;}
+
+#head_link a {
+	text-decoration:none;
+	color:white;
+}
+#head_link a:visited{
+	text-decoration:none;
+	color:white;
+}
+#head_link a:hover {
+	text-shadow: 5px 5px 4px #000066;
+	}
+
+/* HOME!!!!!! */
+
+.home_td_style {padding: 25px 10px;}
+
+.home_td_style a {
+	border-radius: 10px;
+	color:#FFFFFF;
+}
+.home_td_style img {
+	border-radius:16px;
+	box-shadow: 0px 0px 10px 1px #FFFFFF;
+  transition: 0.15s;
+}
+.home_td_style img:hover {
+	box-shadow: 0px 0px 20px 5px #FFFF94;
+}
+
+*:hover {
+  transition: 0.15s;
+}
+
+
+/* PROJECT!!!!!! */
+
+.project_td_style {padding:25px 0px;}
+
+.project_td_style a {
+	border-style: double;
+	border-width: 30px 20px 15px 20px;
+	border-color: rgba(255, 255, 255, 0);
+	border-radius: 10px;
+	background-color:rgba(255, 255, 255, 0.4);
+}
+
+.project_td_style img {
+	border-radius:16px;
+	box-shadow: 0px 0px 0px 0px #FFFFFF;
+	border-style:none;
+}
+
+
+.project_td_style img:hover {
+	box-shadow: 0px 0px 20px 5px #FFFF94;
+}
+
+.project_l {
+  width: 300px;
+  height: 225px;
+}
+
+.project_p {
+  width: 225px;
+  height: 300px;
+}
+
+
+/* GALLERY!!!!!! */
+
+.gallery_td_style_l {
+	padding: 40px 0px;
+}
+
+.gallery_td_style_p {
+  padding: 40px 0px;
+}
+
+.gallery_td_style_other {
+  padding: 40px 0px;
+}
+
+.gallery_td_style_l img {
+  height: 300px;
+  width: 400px;
+  border-radius: 16px;
+}
+
+.gallery_td_style_p img {
+  height: 400px;
+  width: 300px;
+  border-radius: 16px;
+}
+
+.gallery_td_style_other img {
+  border-radius: 16px;
+}

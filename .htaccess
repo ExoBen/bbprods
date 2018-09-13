@@ -1,0 +1,5 @@
+AddHandler application/x-httpd-php5 .php
+Options +Includes
+AddType application/x-httpd-php .html .htm .php3 .php
+AddType application/x-httpd-php-source .phps
+ErrorDocument 404 http://www.bbprods.co.uk/404error.php
