@@ -10,7 +10,7 @@ echo "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n";
 
 <head>
 <title>bill breckenridge</title>
-<link rel="stylesheet" title="body" media="screen" type="text/css" href="<?php echo BASE_URL;?>/style.css" />
+<link rel="stylesheet" title="body" media="screen" type="text/css" href="<?php echo BASE_URL;?>static/style.css" />
 <meta name="description" content="Bill Breckenridge, South Glasgow, design and build. Website contains projects of work done with attached galleries. wbreckenridge@btinternet.com">
 </head>
 
@@ -25,10 +25,10 @@ echo "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n";
 <table id="head">
 	<tr>
 		<td class="left_align">
-			<a href="http://www.bbprods.co.uk/"><p>&nbsp;</p><h1>&nbsp;&nbsp;bill breckenridge</h1></a>
+			<a href="<?php echo BASE_URL;?>"><p>&nbsp;</p><h1>&nbsp;&nbsp;bill breckenridge</h1></a>
 		</td>
 		<td class="center_align">
-            <p>&nbsp;</p><h2>design and <a href="http://www.bbprods.co.uk/beta">b</a>uild</h2>
+            <p>&nbsp;</p><h2>design and <a href="<?php echo BASE_URL;?>beta">b</a>uild</h2>
 		</td>
 	</tr>
 </table>

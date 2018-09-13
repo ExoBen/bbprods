@@ -4,7 +4,7 @@
 </div>
 
 <div id="bottom_right">
-<p><b>&copy; Bill Breckenridge<br>Created by <a href="http://www.ben-jackson.me">ben-jackson.me</a></b></p>
+<p><b>&copy; Bill Breckenridge<br>Created by ben.d.jackson@outlook.com</a></b></p>
 </div>
 </div>
 </div>
