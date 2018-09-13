@@ -28,7 +28,7 @@ echo "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n";
 			<a href="http://www.bbprods.co.uk/"><p>&nbsp;</p><h1>&nbsp;&nbsp;bill breckenridge</h1></a>
 		</td>
 		<td class="center_align">
-            <p>&nbsp;</p><h2>design and build</h2>
+            <p>&nbsp;</p><h2>design and <a href="http://www.bbprods.co.uk/beta">b</a>uild</h2>
 		</td>
 	</tr>
 </table>
