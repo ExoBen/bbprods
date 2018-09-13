@@ -10,7 +10,8 @@ echo "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n";
 
 <head>
 <title>bill breckenridge</title>
-<link rel="stylesheet" title="body" media="screen" type="text/css" href="<?php echo BASE_URL;?>static/style.css" />
+<link rel="stylesheet" media="screen" type="text/css" href="<?php echo BASE_URL;?>static/bootstrap-4.1.3/css/bootstrap.min.css">
+<link rel="stylesheet" media="screen" type="text/css" href="<?php echo BASE_URL;?>static/style.css" />
 <meta name="description" content="Bill Breckenridge, South Glasgow, design and build. Website contains projects of work done with attached galleries. wbreckenridge@btinternet.com">
 </head>
 
