@@ -106,25 +106,20 @@ h4 {font-size:20px; padding: 20px 10px 0px 10px;}
 
 /* ---------- Project Pages ---------- */
 
-.project_td_style {padding:25px 0px;}
-
-.project_td_style a {
-	border-style: double;
-	border-width: 30px 20px 15px 20px;
-	border-color: rgba(255, 255, 255, 0);
-	border-radius: 10px;
-	background-color:rgba(255, 255, 255, 0.4);
-	vertical-align: bottom;
+.projects div {
+	padding:25px 0px;
 }
 
-.project_td_style img {
+.projects img {
 	border-radius:16px;
 	box-shadow: 0px 0px 0px 0px #FFFFFF;
 	border-style:none;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-
-.project_td_style img:hover {
+.projects img:hover {
 	box-shadow: 0px 0px 20px 5px #FFFF94;
 }
 
