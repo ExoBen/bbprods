@@ -3,7 +3,9 @@
         <h3>contact: wbreckenridge@btinternet.com</h3>
     </div>
     <div class="col-lg-5 right_align">
-        &copy; William Breckenridge<br />Website by ben.d.jackson@outlook.com
+        <div class="blue_background">
+            &copy; William Breckenridge<br />Website by ben.d.jackson@outlook.com
+        </div>
     </div>
 </div>
 

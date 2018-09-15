@@ -1,4 +1,5 @@
 
+/* ---------- General ---------- */
 html {overflow-y: scroll;}
 
 body {
@@ -22,12 +23,11 @@ h1 {font-size:48px; padding: 0px 10px 0px 10px;}
 h2 {font-size:36px; padding: 0px 10px 0px 10px;}
 h3 {font-size:24px; padding: 0px 10px 0px 10px;}
 h4 {font-size:20px; padding: 20px 10px 0px 10px;}
-p  {margin:18px;}
 
 .outline {
-    color: #ffffff;
-    text-shadow: 3px 3px 4px #000000;
-    -webkit-font-smoothing: antialiased;
+	color: #ffffff;
+	text-shadow: 3px 3px 4px #000000;
+	-webkit-font-smoothing: antialiased;
 }
 
 .left_align {text-align: left;}
@@ -35,30 +35,21 @@ p  {margin:18px;}
 .right_align {text-align: right;}
 .embolden {font-weight: bold;}
 
-.table_style {
+/*DELETE*/
+.table_style { 
 	width: 100%;
 	text-align: center;
 	text-shadow: 2px 2px 3px #FFFFFF;
 }
 
-#bottom_right {
-	float:right;
-	text-align:right;
-	color: #FFFFFF;
+.blue_background {
 	text-shadow: 1px 1px 2px #000000;
 	background-color: rgba(102, 255, 255, 0.2);
 	border-color: rgba(102,255, 255, 0);
 	border-style: solid;
 	border-width: 0px 15px;
 	border-radius: 15px;
-}
-
-#bottom_right a {
-	color: white;
-}
-
-#bottom_left {
-    float:left;
+	margin: 5px;
 }
 
 .header-padding {
@@ -69,13 +60,13 @@ p  {margin:18px;}
 	padding: 40px 0 40px 0;
 }
 
-/* HEAD!!!!!! */
+/* ---------- Header ---------- */
 
 #head_link a {
 	text-decoration:none;
 	color:white;
 }
-#head_link a:visited{
+#head_link a:visited {
 	text-decoration:none;
 	color:white;
 }
@@ -86,7 +77,7 @@ p  {margin:18px;}
 	padding-top: 12px;
 }
 
-/* HOME!!!!!! */
+/* ---------- Home Page ---------- */
 
 .home_columns div {
 	padding: 25px 0px;
@@ -113,7 +104,7 @@ p  {margin:18px;}
 }
 
 
-/* PROJECT!!!!!! */
+/* ---------- Project Pages ---------- */
 
 .project_td_style {padding:25px 0px;}
 
@@ -148,7 +139,7 @@ p  {margin:18px;}
 }
 
 
-/* GALLERY!!!!!! */
+/* ---------- Gallery Pages ---------- */
 
 .gallery_td_style_l {
 	padding: 40px 0px;
