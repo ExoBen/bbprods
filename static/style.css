@@ -35,13 +35,6 @@ h4 {font-size:20px; padding: 20px 10px 0px 10px;}
 .right_align {text-align: right;}
 .embolden {font-weight: bold;}
 
-/*DELETE*/
-.table_style { 
-	width: 100%;
-	text-align: center;
-	text-shadow: 2px 2px 3px #FFFFFF;
-}
-
 .blue_background {
 	text-shadow: 1px 1px 2px #000000;
 	background-color: rgba(102, 255, 255, 0.2);
@@ -58,6 +51,11 @@ h4 {font-size:20px; padding: 20px 10px 0px 10px;}
 
 .footer-padding {
 	padding: 40px 0 40px 0;
+}
+
+.col-centered {
+	float: none;
+	margin: 0 auto;
 }
 
 /* ---------- Header ---------- */
@@ -136,28 +134,27 @@ h4 {font-size:20px; padding: 20px 10px 0px 10px;}
 
 /* ---------- Gallery Pages ---------- */
 
-.gallery_td_style_l {
-	padding: 40px 0px;
-}
-
-.gallery_td_style_p {
-  padding: 40px 0px;
-}
-
-.gallery_td_style_other {
-  padding: 40px 0px;
+.gallery div {
+	margin-top: 15px;
+	padding: 10px;
 }
 
 .gallery_td_style_l img {
-  height: 300px;
-  width: 400px;
+	width: 100%;
+	max-width: 400px;
   border-radius: 16px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
 }
 
 .gallery_td_style_p img {
-  height: 400px;
-  width: 300px;
+  width: 100%;
+	max-width: 300px;
   border-radius: 16px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
 }
 
 .gallery_td_style_other img {
