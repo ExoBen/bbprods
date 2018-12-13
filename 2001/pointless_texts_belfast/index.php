@@ -3,31 +3,31 @@ set_include_path(implode(PATH_SEPARATOR,Array('.','./includes','../includes','..
 include_once('header.php'); ?>
 
 <div class="row gallery">
-<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 col-centered gallery_td_style_p">
+	<div class="col-lg-4 col-sm-6 align-self-center col-centered gallery_td_style_p">
 		<img src="01.jpg">
 	</div>
-	<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 col-centered gallery_td_style_l">
+	<div class="col-lg-4 col-sm-6 align-self-center col-centered gallery_td_style_l">
 		<img src="02.jpg">
 	</div>
-	<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 col-centered gallery_td_style_l">
+	<div class="col-lg-4 col-sm-6 align-self-center col-centered gallery_td_style_l">
 		<img src="03.jpg">
 	</div>
-	<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 col-centered gallery_td_style_l">
+	<div class="col-lg-4 col-sm-6 align-self-center col-centered gallery_td_style_l">
 		<img src="04.jpg">
 	</div>
-	<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 col-centered gallery_td_style_l">
+	<div class="col-lg-4 col-sm-6 align-self-center col-centered gallery_td_style_l">
 		<img src="05.jpg">
 	</div>
-	<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 col-centered gallery_td_style_l">
+	<div class="col-lg-4 col-sm-6 align-self-center col-centered gallery_td_style_l">
 		<img src="06.jpg">
 	</div>
-	<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 col-centered gallery_td_style_l">
+	<div class="col-lg-4 col-sm-6 align-self-center col-centered gallery_td_style_l">
 		<img src="07.jpg">
 	</div>
-	<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 col-centered gallery_td_style_l">
+	<div class="col-lg-4 col-sm-6 align-self-center col-centered gallery_td_style_l">
 		<img src="08.jpg">
 	</div>
-	<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 col-centered gallery_td_style_l">
+	<div class="col-lg-4 col-sm-6 align-self-center col-centered gallery_td_style_l">
 		<img src="09.jpg">
 	</div>
 </div>
