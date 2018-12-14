@@ -139,6 +139,7 @@ h4 {font-size:20px; padding: 20px 10px 0px 10px;}
 	padding: 20px;
 }
 
+/* landscape */
 .gallery_td_style_l img {
 	width: 100%;
 	max-width: 400px;
@@ -147,6 +148,7 @@ h4 {font-size:20px; padding: 20px 10px 0px 10px;}
 	display: block;
 }
 
+/* portrait */
 .gallery_td_style_p img {
   width: 70%;
 	max-width: 300px;
@@ -155,6 +157,11 @@ h4 {font-size:20px; padding: 20px 10px 0px 10px;}
 	display: block;
 }
 
-.gallery_td_style_other img {
+/* square */
+.gallery_td_style_s img {
+  width: 80%;
+	max-width: 350px;
   border-radius: 16px;
+	margin: auto;
+	display: block;
 }
