@@ -1,16 +1,21 @@
 
 /* ---------- General ---------- */
-html {overflow-y: scroll;}
+html {
+  background: url(http://www.bbprods.co.uk/images/home_crop.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: auto 120%;
+	height: 100%;
+	overflow: visible;
+}
 
 body {
   font-family:"lucida console",helvetica,sans-serif;
   color:black;
   max-height: 9999px;
-  background-image: url(http://www.bbprods.co.uk/images/home_crop.jpg);
-  background-position: center;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: none;
+  overflow-y: visible;
 }
 
 @media (min-width: 1400px) {
